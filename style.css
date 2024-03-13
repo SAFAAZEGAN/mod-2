@@ -1,0 +1,42 @@
+<style>
+body {
+    font-family:   Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 2em;
+}
+
+
+
+.container > div{
+width: 200px;
+height: 400px;
+background-color:  grey;
+border: 1px;
+}
+
+.container > div > div{
+    width: 100px;
+    height: 20x;
+    background-color:  rgb(220, 202, 202);
+    border: 1px;
+    }
+
+.container{
+    display: flex ;
+    justify-content: space-between;
+}
+
+p{
+    text-align: center;
+}
+</style>
